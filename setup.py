@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="kerucut_geometry",
+    name="package_geometri",
     version="0.1",
     packages=find_packages(),
     description="A package for calculating various properties of a cone.",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Kelompok 4 ALGO A",
+    author_email="office@unhas.ac.id",
     license="MIT",
 )
