@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="geometri-package",
-    version="0.1.1",
+    version="0.1.3",
     packages=find_packages(),
     long_description=open("README.md").read(),
     description="Paket untuk menghitung berbagai bangun ruang.",
