@@ -2,17 +2,8 @@
 
 **PACKAGE GEOMETRI** Paket Python ini menyediakan berbagai fungsi matematika untuk menghitung berbagai sifat geometri dari berbagai bentuk tiga dimensi seperti bola, kerucut, kubus, balok, limas, prisma, dan tabung.
 
-<<<<<<< Updated upstream
-## Deskripsi
-
-Paket Python ini menyediakan berbagai fungsi matematika untuk menghitung berbagai sifat geometri dari berbagai bentuk tiga dimensi seperti bola, kerucut, kubus, balok, limas, prisma, dan tabung.
-
 ### Fitur Utama
 
-=======
-### Fitur Utama
-
->>>>>>> Stashed changes
 - **Bola**:
 
   - Menghitung volume bola berdasarkan jari-jari.
@@ -59,8 +50,10 @@ Paket Python ini menyediakan berbagai fungsi matematika untuk menghitung berbaga
 
 - **Prisma**:
 
-  - Menghitung keliling dan luas alas segi lima beraturan.
-  - Menghitung luas permukaan dan volume prisma segi lima.
+  - Menghitung keliling
+  - Menghitung Luas alas segi lima beraturan.
+  - Menghitung luas permukaan 
+  - Menghitung volume prisma segi lima.
 
 - **Tabung**:
   - Menghitung luas permukaan tabung.
@@ -70,7 +63,12 @@ Paket Python ini menyediakan berbagai fungsi matematika untuk menghitung berbaga
   - Menghitung tinggi, diameter, dan jari-jari berdasarkan parameter tertentu.
   - Membandingkan dua tabung berdasarkan parameter tertentu.
   - Menghitung rasio volume terhadap luas permukaan tabung.
+  - Menghitung total panjang kawat bingkai tabung.
   - Menghitung biaya pembuatan tabung berdasarkan luas permukaan dan harga material.
+  - Menghitung optimasi volume dengan luas terbatas
+  - Mengecek kapasitas tabung
+  - Konversi volume ke liter
+  - Memeriksa validasi dimensi tabung 
 
 ## Instalasi
 
