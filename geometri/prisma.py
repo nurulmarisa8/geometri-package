@@ -50,7 +50,3 @@ def hitung_prisma_segi_lima(sisi, tinggi):
     print(f"Luas permukaan prisma segi lima: {luas_permukaan:.2f} cm²")
     print(f"Volume prisma segi lima: {volume:.2f} cm³")
 
-sisi = float(input("Masukkan panjang sisi alas segi lima (cm): "))
-tinggi = float(input("Masukkan tinggi prisma (cm): "))
-
-hitung_prisma_segi_lima(sisi, tinggi)
