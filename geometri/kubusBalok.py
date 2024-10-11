@@ -1,66 +1,154 @@
 import math
 
-# Volume Kubus
-def volume_kubus(sisi):
+#Volume Kubus
+def volume_kubus():
+    """
+    Menghitung volume kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     v = sisi**3
-    print(f'Volume Kubus: {v}')
 
-# Luas Permukaan Kubus
-def luas_permukaan_kubus(sisi):
+#Luas Permukaan Kubus
+def luas_permukaan_kubus():
+    """
+    Menghitung luas permukaan kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     LP = 6 * sisi**2
-    print(f'Luas Permukaan Kubus: {LP}')
 
-# Keliling Kubus
-def keliling_kubus(sisi):
+#Keliling Kubus
+def keliling_kubus():
+    """
+    Menghitung keliling kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     K = sisi * 12
-    print(f'Keliling Kubus: {K}')
 
-# Panjang Diagonal Sisi Kubus
-def panjang_diagonal_sisi_kubus(sisi):
+#Panjang Diagonal Sisi Kubus
+def panjang_diagonal_sisi_kubus():
+    """
+    Menghitung panjang diagonal sisi kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     PDS = sisi * math.sqrt(2)
-    print(f'Panjang Diagonal Sisi: {PDS:.2f}')
 
-# Panjang Diagonal Ruang Kubus
-def panjang_diagonal_ruang_kubus(sisi):
+#Panjang Diagonal Ruang Kubus
+def panjang_diagonal_ruang_kubus():
+    """
+    Menghitung panjang diagonal ruang kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     PDR = sisi * math.sqrt(3)
-    print(f'Panjang Diagonal Ruang: {PDR:.2f}')
 
-# Luas Satu Sisi Kubus
-def luas_satu_sisi(sisi):
+#Luas Satu Sisi Kubus
+def luas_satu_sisi():
+    """
+    Menghitung luas satu sisi kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     LSS = sisi**2
-    print(f'Luas Satu Sisi Kubus: {LSS}')
 
-# Keliling Satu Sisi Kubus
-def keliling_satu_sisi(sisi):
+#Keliling satu sisi kubus
+def keliling_satu_sisi():
+    """
+    Menghitung keliling satu sisi kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
     KSS = 4 * sisi
-    print(f'Keliling Satu Sisi Kubus: {KSS}')
 
-# Jumlah Panjang Rusuk Kubus
-def jumlah_panjang_rusuk(sisi):
-    JPR = 12 * sisi
-    print(f'Jumlah Panjang Rusuk: {JPR}')
+#Jumlah Panjang Rusuk Kubus
+def jumlah_panjang_rusuk():
+    """
+    Menghitung jumlah panjang rusuk kubus berdasarkan panjang sisi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    sisi = int(input('Masukkan Sisi : '))
+    JPR =  12 * sisi
 
-# Volume Balok
-def volume_balok(p, l, t):
-    V = p * l * t
-    print(f'Volume Balok: {V}')
+#Volume Balok
+def volume_balok():
+    """
+    Menghitung volume balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    p = int(input('Masukkan panjang :'))
+    l = int(input('Masukkan lebar :'))
+    t = int(input('Masukkan tinggi : '))
+    V = p*l*t
 
 # Keliling Balok
-def keliling_balok(p, l, t):
-    K = 4 * (p + l + t)
-    print(f'Keliling Balok: {K}')
+def keliling_balok():
+    """
+    Menghitung keliling balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    p = int(input('Masukkan panjang :'))
+    l = int(input('Masukkan lebar :'))
+    t = int(input('Masukkan tinggi : '))
+    K = 4 * (p+l+t)
 
-# Luas Permukaan Balok
-def luas_permukaan_balok(p, l, t):
-    LP = 2 * (p * l + p * t + l * t)
-    print(f'Luas Permukaan Balok: {LP}')
+#Luas Permukaan Balok
+def luas_permukaan_balok():
+    """
+    Menghitung luas permukaan balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    p = int(input('Masukkan panjang :'))
+    l = int(input('Masukkan lebar :'))
+    t = int(input('Masukkan tinggi : '))
+    LP = 2 * (p*l + p*t + l*t)
 
-# Diagonal Ruang Balok
-def diagonal_ruang_balok(p, l, t):
+#Diagonal Ruang Balok
+def diagonal_ruang_balok():
+    """
+    Menghitung diagonal ruang balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    p = int(input('Masukkan panjang :'))
+    l = int(input('Masukkan lebar :'))
+    t = int(input('Masukkan tinggi : '))
     DR = math.sqrt(p**2 + l**2 + t**2)
-    print(f'Diagonal Ruang Balok: {DR:.2f}')
 
-# Luas Diagonal Balok
-def luas_diagonal_balok(p, l, t):
+#Luas Diagonal Balok
+def luas_diagonal_balok():
+    """
+    Menghitung luas diagonal balok berdasarkan panjang, lebar, dan tinggi yang dimasukkan pengguna.
+    
+    Returns:
+    None
+    """
+    p = int(input('Masukkan panjang :'))
+    l = int(input('Masukkan lebar :'))
+    t = int(input('Masukkan tinggi : ')) 
     LD = p * math.sqrt(l**2 + t**2)
-    print(f'Luas Diagonal Balok: {LD:.2f}')
