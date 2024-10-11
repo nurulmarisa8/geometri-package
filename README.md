@@ -2,12 +2,17 @@
 
 **PACKAGE GEOMETRI** Paket Python ini menyediakan berbagai fungsi matematika untuk menghitung berbagai sifat geometri dari berbagai bentuk tiga dimensi seperti bola, kerucut, kubus, balok, limas, prisma, dan tabung.
 
+<<<<<<< Updated upstream
 ## Deskripsi
 
 Paket Python ini menyediakan berbagai fungsi matematika untuk menghitung berbagai sifat geometri dari berbagai bentuk tiga dimensi seperti bola, kerucut, kubus, balok, limas, prisma, dan tabung.
 
 ### Fitur Utama
 
+=======
+### Fitur Utama
+
+>>>>>>> Stashed changes
 - **Bola**:
 
   - Menghitung volume bola berdasarkan jari-jari.
