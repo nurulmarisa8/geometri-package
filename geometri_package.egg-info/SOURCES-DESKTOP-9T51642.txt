@@ -8,9 +8,6 @@ geometri/kubusBalok.py
 geometri/prisma.py
 geometri/tabung.py
 geometri_package.egg-info/PKG-INFO
-geometri_package.egg-info/PKG-INFO-DESKTOP-9T51642
-geometri_package.egg-info/SOURCES-DESKTOP-9T51642.txt
 geometri_package.egg-info/SOURCES.txt
 geometri_package.egg-info/dependency_links.txt
-geometri_package.egg-info/top_level-DESKTOP-9T51642.txt
 geometri_package.egg-info/top_level.txt
