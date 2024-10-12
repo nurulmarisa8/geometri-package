@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
 Name: geometri-package
-Version: 0.1.4
+Version: 0.1.1
 Summary: Paket untuk menghitung berbagai bangun ruang.
 Home-page: https://github.com/nurulmarisa8/geometri-package.git
 Author: Kelompok 4 ALGO A
 Author-email: office@unhas.ac.id
 License: MIT
-Description-Content-Type: text/markdown
 
 # PACKAGE GEOMETRI
 
@@ -60,10 +59,8 @@ Description-Content-Type: text/markdown
 
 - **Prisma**:
 
-  - Menghitung keliling
-  - Menghitung Luas alas segi lima beraturan.
-  - Menghitung luas permukaan 
-  - Menghitung volume prisma segi lima.
+  - Menghitung keliling dan luas alas segi lima beraturan.
+  - Menghitung luas permukaan dan volume prisma segi lima.
 
 - **Tabung**:
   - Menghitung luas permukaan tabung.
@@ -73,12 +70,7 @@ Description-Content-Type: text/markdown
   - Menghitung tinggi, diameter, dan jari-jari berdasarkan parameter tertentu.
   - Membandingkan dua tabung berdasarkan parameter tertentu.
   - Menghitung rasio volume terhadap luas permukaan tabung.
-  - Menghitung total panjang kawat bingkai tabung.
   - Menghitung biaya pembuatan tabung berdasarkan luas permukaan dan harga material.
-  - Menghitung optimasi volume dengan luas terbatas
-  - Mengecek kapasitas tabung
-  - Konversi volume ke liter
-  - Memeriksa validasi dimensi tabung 
 
 ## Instalasi
 
